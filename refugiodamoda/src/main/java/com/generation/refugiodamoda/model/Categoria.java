@@ -18,7 +18,7 @@ public class Categoria {
 	
 	@NotBlank
 	@Size(min = 5, max = 100)
-	private String tipo;
+	private String tipo;//
 	
 	private Boolean denuncia;
 	
